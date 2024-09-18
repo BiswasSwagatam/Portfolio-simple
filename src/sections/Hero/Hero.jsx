@@ -27,7 +27,7 @@ function Hero() {
             <h1>Swagatam <br/> Biswas</h1>
             <h2>FullStack developer</h2>
             <span className='socials'>
-                <a href="https://www.linkedin.com/in/swagatam-biswas-9b382b1b8/" target='_blank'>
+                <a href="https://www.linkedin.com/in/swagatam-biswas-8115a1171/" target='_blank'>
                     <img src={linkedinIcon}/>
                 </a>
                 <a href="https://github.com/BiswasSwagatam" target='_blank'>
