@@ -6,6 +6,8 @@ import linkedinlight from '../../assets/linkedin-light.svg'
 import linkedindark from '../../assets/linkedin-dark.svg'
 import githublight from '../../assets/github-light.svg'
 import githubdark from '../../assets/github-dark.svg'
+import twitterlight from '../../assets/twitter-light.svg'
+import twitterdark from '../../assets/twitter-dark.svg'
 import './HeroStyles.Module.css';
 import { useTheme } from '../../common/ThemeContext';
 import Resume from '../../assets/cv.pdf'
@@ -16,6 +18,7 @@ function Hero() {
   const themeIcon = theme === 'light' ? sun : moon;
   const linkedinIcon = theme === 'light' ? linkedinlight : linkedindark;
   const githubIcon = theme === 'light' ? githublight : githubdark;
+  const twitterIcon = theme === 'light' ? twitterlight : twitterdark;
     
   return (
     <section className='container' >
@@ -32,6 +35,9 @@ function Hero() {
                 </a>
                 <a href="https://github.com/BiswasSwagatam" target='_blank'>
                     <img src={githubIcon}/>
+                </a>
+                <a href="https://x.com/swagBis04" target='_blank'>
+                    <img src={twitterIcon}/>
                 </a>
             </span>
             <p>With a passion for coding useful applications to solve real world problems</p>
